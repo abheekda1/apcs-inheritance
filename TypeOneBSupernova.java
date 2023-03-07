@@ -13,4 +13,12 @@ public class TypeOneBSupernova extends TypeOneSupernova {
     public void explode() {
         System.out.println("This Type IIb supernova is exploding!!!");
     }
+
+    public void unIonise() {
+        System.out.println("Unionising...");
+    }
+
+    public void heWavelength() {
+        System.out.println("587.6");
+    }
 }

@@ -1,6 +1,14 @@
 public class TypeTwoSupernova extends Supernova {
     private boolean spectrum = false;
 
+    public boolean isSpectrum() {
+        return spectrum;
+    }
+
+    public void setSpectrum(boolean spectrum) {
+        this.spectrum = spectrum;
+    }
+
     public boolean isShowsHydrogenLines() {
         return showsHydrogenLines;
     }
@@ -19,5 +27,13 @@ public class TypeTwoSupernova extends Supernova {
 
     public void explode() {
         System.out.println("This Type II supernova is exploding!!!");
+    }
+
+    public void trackHydrogen() {
+        System.out.println("Tracking H...");
+    }
+
+    public void coreCollapse() {
+        System.out.println("Collapsing core...");
     }
 }

@@ -13,4 +13,11 @@ public class TypeOneASupernova extends TypeOneSupernova {
     public void explode() {
         System.out.println("This Type Ia supernova is exploding!!!");
     }
+
+    public void generateNm() {
+        System.out.println("615");
+    }
+    public void peakLight() {
+        System.out.println("YES!");
+    }
 }

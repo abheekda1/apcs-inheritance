@@ -21,4 +21,12 @@ public class TypeOneSupernova extends Supernova {
     public void explode() {
         System.out.println("This Type I supernova is exploding!!!");
     }
+
+    public void thermalRunaway() {
+        System.out.println("Running away!");
+    }
+
+    public void trackSilicon() {
+        System.out.println("It's there...");
+    }
 }

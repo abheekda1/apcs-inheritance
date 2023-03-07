@@ -10,4 +10,7 @@ public abstract class Supernova {
     }
 
     public abstract void explode();
+    public void eatASandwich() {
+        System.out.println("Eating a sandwich!");
+    }
 }
